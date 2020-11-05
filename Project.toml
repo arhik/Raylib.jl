@@ -1,0 +1,15 @@
+name = "Raylib"
+uuid = "bb669ccd-4162-4968-82ba-ff72339b4606"
+authors = ["arhik <karthik.katipalli@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
+CEnum = "fa961155-64e5-5f13-b03f-caf6b980ea82"
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+Debugger = "31a5f54b-26ea-5ae9-a837-f05ce5417438"
+FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+VideoIO = "d6d074c3-1acf-5d4c-9a43-ef38773959a2"
