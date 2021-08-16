@@ -18,9 +18,9 @@ raylibpath = joinpath(rootpath, "lib")
 
 extension = if Sys.iswindows()
     		".dll"
-else Sys.isapple()
+elseif Sys.isapple()
 	".dylib"
-else Sys.islinux()
+elseif Sys.islinux()
 	".so"
 end
 	
