@@ -8,10 +8,15 @@ const Ctm = Base.Libc.TmStruct
 const Ctime_t = UInt
 const Cclock_t = UInt
 using CEnum
+using Pkg
+using Pkg.Artifacts
 
 using Libdl
 
-const libraylib = "libraylib"
+rootpath = artifact"Raylib"
+raylibpath = joinpath(rootpath, "raylib-3.7.0_macos", "lib")
+
+const libraylib = "$raylibpath/libraylib.dylib"
 
 # Manually writing skipped functions here
 # TextFormat(const char *, ...)
