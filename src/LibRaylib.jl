@@ -34,6 +34,8 @@ end
 
 const libraylib = joinpath("$(raylibpath)", "$(libname)"*"$(extension)")
 
+chmod(libraylib, filemode(libraylib) | 0o755) # is this for windows only ? TODO
+
 # Manually writing skipped functions here
 # TextFormat(const char *, ...)
 # TraceLog(int, const char *, ...)
