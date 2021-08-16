@@ -1,4 +1,4 @@
-[Raylib]
+[[Raylib]]
 git-tree-sha1 = "063770db8f24be9528faba0f375e03f19a6c2fe6"
 os = "macos"
 arch = "x86_64"
@@ -6,10 +6,10 @@ arch = "x86_64"
     sha256 = "439dc1851dd1b7f385f4caf4f5c7191dda90add9d8d531e5e74702315e432003"
     url = "https://github.com/raysan5/raylib/releases/download/3.7.0/raylib-3.7.0_macos.tar.gz"
 
-[RaylibWin]
+[[Raylib]]
 git-tree-sha1 = "6fca54c0bae6f2accb26f44f11bd6aff0612cdab"
 os = "windows"
 arch = "x86_64"
-    [[RaylibWin.download]]
+    [[Raylib.download]]
     sha256 = "cdfeb3af6bc0695108bf8fc2d25f138fd424ce323c6774578d6cfe4b31e16f0a"
     url = "https://github.com/arhik/Raylib.jl/releases/download/0.1/raylib-3.7.0_win64_mingw-w64.tar.gz"
