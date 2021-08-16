@@ -24,8 +24,15 @@ extension = if Sys.iswindows()
 				".so"
 			end
 	
+libname = if Sys.iswindow()
+	"raylib"
+	elseif Sys.isapple()
+	"libraylib"
+	elseif Sys.islinux()
+	"libraylib"
+end
 
-const libraylib = joinpath("$(raylibpath)", "libraylib"*"$(extension)")
+const libraylib = joinpath("$(raylibpath)", "$(libname)"*"$(extension)")
 
 # Manually writing skipped functions here
 # TextFormat(const char *, ...)
