@@ -24,7 +24,7 @@ extension = if Sys.iswindows()
 				".so"
 			end
 	
-libname = if Sys.iswindow()
+libname = if Sys.iswindows()
 	"raylib"
 	elseif Sys.isapple()
 	"libraylib"
