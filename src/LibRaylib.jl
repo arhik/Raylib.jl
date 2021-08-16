@@ -16,7 +16,16 @@ using Libdl
 rootpath = artifact"Raylib"
 raylibpath = joinpath(rootpath, "lib")
 
-const libraylib = "$raylibpath/libraylib"
+extension = if Sys.iswindows()
+    		".dll"
+else Sys.isapple()
+	".dylib"
+else Sys.islinux()
+	".so"
+end
+	
+
+const libraylib = joinpath($raylibpath, "libraylib$extension")
 
 # Manually writing skipped functions here
 # TextFormat(const char *, ...)
