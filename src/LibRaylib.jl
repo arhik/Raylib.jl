@@ -17,15 +17,15 @@ rootpath = artifact"Raylib"
 raylibpath = joinpath(rootpath, "lib")
 
 extension = if Sys.iswindows()
-    		".dll"
-elseif Sys.isapple()
-	".dylib"
-elseif Sys.islinux()
-	".so"
-end
+    			".dll"
+			elseif Sys.isapple()
+				".dylib"
+			elseif Sys.islinux()
+				".so"
+			end
 	
 
-const libraylib = joinpath($raylibpath, "libraylib$extension")
+const libraylib = joinpath("$(raylibpath)", "libraylib"*"$(extension)")
 
 # Manually writing skipped functions here
 # TextFormat(const char *, ...)
