@@ -16,7 +16,7 @@ using Libdl
 rootpath = artifact"Raylib"
 raylibpath = joinpath(rootpath, "lib")
 
-const libraylib = "$raylibpath/libraylib.dylib"
+const libraylib = "$raylibpath/libraylib"
 
 # Manually writing skipped functions here
 # TextFormat(const char *, ...)
