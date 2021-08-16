@@ -14,7 +14,7 @@ using Pkg.Artifacts
 using Libdl
 
 rootpath = artifact"Raylib"
-raylibpath = joinpath(rootpath, "raylib-3.7.0_macos", "lib")
+raylibpath = joinpath(rootpath, "lib")
 
 const libraylib = "$raylibpath/libraylib.dylib"
 
