@@ -1,10 +1,10 @@
 [[Raylib]]
-git-tree-sha1 = "063770db8f24be9528faba0f375e03f19a6c2fe6"
+git-tree-sha1 = "dac6c10a3c667719cddddd5b70882ccf4f28a3b6"
 os = "macos"
 arch = "x86_64"
     [[Raylib.download]]
-    sha256 = "439dc1851dd1b7f385f4caf4f5c7191dda90add9d8d531e5e74702315e432003"
-    url = "https://github.com/raysan5/raylib/releases/download/3.7.0/raylib-3.7.0_macos.tar.gz"
+    sha256 = "46d158272a2de25da81044cd5ed14bf0ebc7f60950d4cd375de507f111248468"
+    url = "https://github.com/arhik/Raylib.jl/releases/download/0.1/raylib_macx64.tar.gz"
 
 [[Raylib]]
 git-tree-sha1 = "d9f1a46f89cf2b58722eaf4dc05c495838f21a25"
